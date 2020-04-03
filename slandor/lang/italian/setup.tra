@@ -1,2 +1,76 @@
 @0 = ~Il Minotauro e Lilacor~
 @1 = ~Questo mod non e disponibile per il tuo gioco.~
+
+
+// WeiDU prompts
+@-1000= "Il mod %TP2_FILE_NAME% ha"
+@-1001= "diversi componenti opzionali.\nPer far prima, si può scegliere di applicare una medesima azione a tutti i componenti piuttosto che trattarli singolarmente..\n"
+@-1002= "Che cosa vuoi fare con quei componenti NON ANCORA installati?\n[I] Installarli,  [S] Saltarli, [A] Trattarli singolarmente?"
+@-1003= "Che cosa vuoi fare con quei componenti GIÀ installati?\n[R] Reinstallarli, [U] Rimuoverli, [S] Saltarli, [A] Trattarli singolarmente? "
+
+@-1004= "Fai una copia di backup del file:"
+@-1005= "e cerca aiuto qui:"
+
+@-1006= "Installazione del componente ["
+@-1007= "]?\n[R] Reinstallazione, [N] Nessun cambiamento,  [U] Rimozione o [Q] Termine del processo di installazione? "
+@-1008= "]?\n[I] Installazione, [N] Nessun cambiamento o [Q] Termine del processo di installazione? "
+
+@-1009= "Inserisci part del nome del modulo: "
+
+@-1010= "Reinstallazione del componente ["
+@-1011= "] in corso ..."
+@-1012= "Reinstallazione in Lingua"
+
+@-1013= "Rimozione della precedente installazione di ["
+@-1014= "] in corso ..."
+@-1015= "PRECEDENTE INSTALLAZIONE ELIMINATA"
+
+@-1016= "Installazione in corso"
+@-1017= "ERRORE durante l'installazione di ["
+@-1018= "], ritorno allo stato precedente"
+@-1019= "INSTALLAZIONE COMPLETATA CON SUCCESSO     "
+@-1020= "Salto"
+@-1021= "Rimuovo ["
+@-1022= "] (componente #"
+@-1023= ")"
+@-1024= "RIMOZIONE RIUSCITA ["
+
+@-1025= "]?\n[R] Reinstallazione, [N] Nessun cambiamento, [U] Rimozione, [Q] Termine del processo di installazione o selezionare una delle seguenti opzioni:"
+@-1026= "]?\n[N] No, [Q] Termine del processo di installazione o selezionare una delle seguenti opzioni:"
+@-1027= " (selezione corrente="
+
+@-1028= "Vuoi trattare i componenti di ["
+@-1029= "]?\n[Y] Si, [N] No? "
+
+@-1030= "]?\nSeleziona una delle seguenti opzioni:"
+@-1031= "]?\n[R] Reinstallazione, [N] Nessun cambiamento,  [Q] Termine del processo di installazione o selezionare una delle seguenti opzioni:"
+@-1032= "INSTALLAZIONE NON EFFETTUATA A CAUSA DI ERRORI"
+@-1033= "INSTALLAZIONE COMPLETATA MA CON AVVERTIMENTI    "
+@-1034= "vuoi vedere il file leggimi? [Y] Si, [N] No"
+@-1035= "in Lingua"
+
+@-1036= "Salto il GRUPPO ["
+@-1037= "] perchè non conforme ai requisiti richiesti."
+
+@-1038= "[A] Trattare singoli componenti, [S] Saltare tutto, o scegliere una alternativa predefinita:"
+@-1039= "[A] Trattare singoli componenti, [R] Reinstallare la configurazione corrente, [U] Rimuovere tutto, [S] Saltare tutto, o scegliere una alternativa predefinita:"
+
+@-1040= "\nScegli la lingua in cui giocare.\nSe vorrai giocare successivamente in un'altra lingua dovrai modificare il file weidu.conf e reinstallare le modifiche selezionate.\n"
+@-1041= "Cecoslovacco"
+@-1042= "Tedesco"
+@-1043= "Inglese"
+@-1044= "Spagnolo"
+@-1045= "Francese"
+@-1046= "Italiano"
+@-1047= "Polacco"
+@-1048= "Portoghese"
+@-1049= "Turco"
+@-1050= "Giapponese"
+@-1051= "Coreano"
+@-1052= "Cinese"
+@-1053= "Russo"
+@-1054= "Ucraino"
+
+@-1060= "\nQuesto gioco è disponibile in diverse Lingue, ma WeiDU non sa quale Lingua è stata scelta quando questa modifica è stata installata.\n\nIndica quale Lingua era in uso al momento dell'installazione di questa modifica. La tua scelta rimarrà valida fintanto che WeiDU è attivo ma non può essere salvata permanentemente.\n"
+@-1061= "\nSto usando"
+@-1062= " e "

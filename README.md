@@ -180,9 +180,9 @@ In addition to the methods above for removing individual components, you can com
 - Added component `DESIGNATED` number and "*the_minotaur_and_lilacor*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added native BG2:EE and EET compatibilities.
-- Added Polish translation by Cahir (<a href="http://athkatla.cob-bg.pl/viewtopic.php?t=6046">BWP FixPack</a>).
+- Added Polish translation by Cahir (<a href="http://www.shsforums.net/topic/41699-the-minotaur-and-lilacor/page-2#entry591480">BWP FixPack</a>).
 - Added German, Italian, Polish and Spanish WeiDU prompts.
-German
+- Fixed typos in German and French tra files.
 - Split *%language%.tra* files into *setup.tra* and *slandor.tra*. Added `AUTO_TRA` command.
 - Wrote a new *slandor-readme-english.html* readme file and moved it into new *readme* folder.
 - Reorganized mod architecture tree: created "*lang*" folder to sort files according to their types.
