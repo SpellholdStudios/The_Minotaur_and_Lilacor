@@ -2,7 +2,7 @@ IF
 	AttackedBy([ANYONE],DEFAULT)
 THEN
 	RESPONSE #100
-			Attack(LastAttackerOf(Myself))
+		Attack(LastAttackerOf(Myself))
 		Continue()
 END
 
@@ -10,5 +10,5 @@ IF
 	SEE([GOODCUTOFF])
 THEN
 	RESPONSE #100
-			Attack(LastSeenBy(Myself))
+		Attack(LastSeenBy(Myself))
 END
