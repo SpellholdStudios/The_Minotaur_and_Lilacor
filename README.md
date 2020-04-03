@@ -15,14 +15,14 @@
 **Mod Website and Forum:** <a href="http://www.shsforums.net/topic/41667-the-minotaur-and-lilacor/">The Minotaur and Lilacor</a>  
 
 
-[Read the mod's readme](http://spellholdstudios.github.io/readmes/adrian-readme-english.html)
+[Read the mod's readme](http://spellholdstudios.github.io/readmes/slandor-readme-english.html)
 
 [Download the mod at Spellhold Studios](http://www.shsforums.net/files/file/818-the-minotaur-and-lilacor/)<br>
 
 &nbsp;
 
 <div align="center">
-<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#components">Components</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br>
+<a href="#intro">Overview</a> &#8226; <a href="#compat">Compatibility</a> &#8226; <a href="#installation">Installation</a> &#8226; <a href="#credits">Credits and Acknowledgements</a> &#8226; <a href="#versions">Version History</a></br>
 </div>
 
 <hr>
@@ -127,7 +127,6 @@ In addition to the methods above for removing individual components, you can com
 #### Special Acknowledgements to:
 
 - <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> team for hosting the mod (<a href="http://www.shsforums.net">Forums</a>)
-
 - Polish translation: Cahir.
 - Spanish translation: Lisandro.
 - Russian translation: aerie.ru team (prowler, hawkmoon, accolon).
@@ -171,11 +170,11 @@ In addition to the methods above for removing individual components, you can com
 #### Version 2.0 (3rd April 2020)
 
 - Added *slandor.ini* metadata file to support AL|EN's "Project Infinity".
-- Renamed *setup-slandor.tp2* -> *slandor.tp2* to support AL|EN's "Project Infinity".
+- Renamed *setup-slandor.tp2* -> *slandor.tp2* and moved it into mod top folder to support AL|EN's "Project Infinity".
 - Replaced `AUTHOR` keyword with `SUPPORT`.
 - Added `VERSION` flag.
-- `MODDER` statement definitively removed from the .tp2 file.
-
+- Definitively removed `MODDER` statement from the .tp2 file.
+- Added `README` command.
 - Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - Added component `DESIGNATED` number and "*the_minotaur_and_lilacor*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.

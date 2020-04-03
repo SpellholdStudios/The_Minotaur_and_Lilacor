@@ -1,7 +1,12 @@
 BACKUP ~slandor/backup~
-AUTHOR ~Yovaneth @ DragonflightDesign@hotmail.com~
-MODDER setup_tra NONE
+//AUTHOR ~Yovaneth @ DragonflightDesign@hotmail.com~
+SUPPORT ~Yovaneth and Spellhold Studios at http://www.shsforums.net/forum/234-miscellaneous-released-mods/~
 
+//MODDER setup_tra NONE
+
+VERSION ~1.6~
+
+README ~slandor/readme/slandor-readme-english.html~
 
 ALWAYS
 
@@ -64,6 +69,8 @@ LANGUAGE ~Polski (translation by Cahir)~
  *  The Minotaur and Lilacor  *
  * ========================== */
 BEGIN @0
+DESIGNATED 0 LABEL ~the_minautor_and_lilacor~
+REQUIRE_PREDICATE GAME_IS ~bg2 tob bgt bg2ee eet~ @1 /* You must have BG2, ToB, BGT, BG2:EE or EET installed to install Lucy the Wyvern Mod for BG2. */
 
 // Compile dialogues
 // -----------------
