@@ -173,6 +173,9 @@ In addition to the methods above for removing individual components, you can com
 - Added *slandor.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-slandor.tp2* -> *slandor.tp2* to support AL|EN's "Project Infinity".
 - Replaced `AUTHOR` keyword with `SUPPORT`.
+- Added `VERSION` flag.
+- `MODDER` statement definitively removed from the .tp2 file.
+
 - Added missing `REQUIRE_PREDICATE` process to avoid installing the mod in inaccurate games.
 - Added component `DESIGNATED` number and "*the_minotaur_and_lilacor*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.

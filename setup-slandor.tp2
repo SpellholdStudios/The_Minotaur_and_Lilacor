@@ -3,6 +3,28 @@ AUTHOR ~Yovaneth @ DragonflightDesign@hotmail.com~
 MODDER setup_tra NONE
 
 
+ALWAYS
+
+	/* --------------------------------------------------------------------------------------------- *
+	 *    Convert strings to UTF-8 for BGEE/BG2EE                                                    *
+	 *    No exception, everything needs to be converted                                             *
+	 * -----------------------------------------------------------------------*--------------------- */
+	ACTION_DEFINE_ARRAY y#noconvert BEGIN END
+	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
+	ACTION_DEFINE_ARRAY y#reload BEGIN setup END
+
+	LAF HANDLE_CHARSETS
+		INT_VAR
+			infer_charsets = 1
+		STR_VAR
+			tra_path = EVAL ~%MOD_FOLDER%/lang~
+			noconvert_array = y#noconvert
+			reload_array = y#reload
+	END
+
+END
+
+
 AUTO_TRA ~slandor/lang/%s~
 
 LANGUAGE ~Deutsch (Uebersetzung von Gerri)~
