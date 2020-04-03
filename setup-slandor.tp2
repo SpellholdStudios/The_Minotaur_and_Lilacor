@@ -2,39 +2,57 @@ BACKUP ~slandor/backup~
 AUTHOR ~Yovaneth @ DragonflightDesign@hotmail.com~
 MODDER setup_tra NONE
 
-LANGUAGE ~Deutsch (bei Gerri)~
+
+AUTO_TRA ~slandor/lang/%s~
+
+LANGUAGE ~Deutsch (Uebersetzung von Gerri)~
          ~deutsch~
-		 ~slandor/lang/german/german.tra~
-LANGUAGE ~English (by Yovaneth)~
+		 ~slandor/lang/german/setup.tra~
+
+LANGUAGE ~English (translation by Yovaneth)~
          ~English~
-		 ~slandor/lang/english/english.tra~
-LANGUAGE ~Français (par Le Marquis de la d'Oghmatiques)~
+		 ~slandor/lang/english/setup.tra~
+
+LANGUAGE ~Français (Traduction : Le Marquis, des d'Oghmatiques)~
          ~french~
-		 ~slandor/lang/french/french.tra~
-LANGUAGE ~Italian (da Ilot)~
+		 ~slandor/lang/french/setup.tra~
+
+LANGUAGE ~Italiano (traduzione di Ilot)~
          ~italian~
-		 ~slandor/italian/lang/italian.tra~
-LANGUAGE ~Russian (www.aerie.ru [prowler, hawkmoon, accolon])~
+		 ~slandor/italian/lang/setup.tra~
+
+LANGUAGE ~Russian (translation by aerie.ru [prowler, hawkmoon, accolon])~
          ~russian~
-		 ~slandor/lang/russian/russian.tra~
-LANGUAGE ~Spanish (por Lisandro)~
+		 ~slandor/lang/russian/setup.tra~
+
+LANGUAGE ~Espanol (traduccion por Lisandro)~
          ~spanish~
-		 ~slandor/lang/spanish/spanish.tra~
+		 ~slandor/lang/spanish/setup.tra~
+
+LANGUAGE ~Espanol (traduccion por Lisandro)~
+         ~spanish~
+		 ~slandor/lang/spanish/setup.tra~
+
+LANGUAGE ~Polski (translation by Cahir)~
+         ~polish~
+         ~slandor/lang/polish/setup.tra~
 
 
 /* ========================== *
  *  The Minotaur and Lilacor  *
  * ========================== */
-BEGIN @24
+BEGIN @0
 
-//Dialog
-	COMPILE ~slandor/dialog/slandor.d~
+// Compile dialogues
+// -----------------
+COMPILE ~slandor/dialog/slandor.d~
 
-//Cre
-	COPY ~slandor/cre/.~ ~override/.~
+// Install creatures
+// -----------------
+COPY ~slandor/cre~ ~override~
 
-//Scripts
-	COMPILE ~slandor/scripts/slandor.baf~
-	COMPILE ~slandor/scripts/ysmyc01.baf~
-	COMPILE ~slandor/scripts/ysmyc02.baf~
-	COMPILE ~slandor/scripts/ar0418.baf~
+// Compile dscripts
+COMPILE ~slandor/scripts/slandor.baf~
+COMPILE ~slandor/scripts/ysmyc01.baf~
+COMPILE ~slandor/scripts/ysmyc02.baf~
+COMPILE ~slandor/scripts/ar0418.baf~

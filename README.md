@@ -129,9 +129,8 @@ In addition to the methods above for removing individual components, you can com
 - <a href="http://www.spellholdstudios.net/">Spellhold Studios</a> team for hosting the mod (<a href="http://www.shsforums.net">Forums</a>)
 
 - Polish translation: Cahir.
-
 - Spanish translation: Lisandro.
-- Russian translation: aerie.ru team.
+- Russian translation: aerie.ru team (prowler, hawkmoon, accolon).
 - French translation: Le Marquis of the d'Ogmatiques.
 - Italian translation: Ilot. And Salk for providing Italian WeiDU prompts.
 - German translation: Gerri.
@@ -181,7 +180,7 @@ In addition to the methods above for removing individual components, you can com
 - Added Polish translation by Cahir (<a href="http://athkatla.cob-bg.pl/viewtopic.php?t=6046">BWP FixPack</a>).
 - Added German, Italian, Polish and Spanish WeiDU prompts.
 German
-- Split *%language%.tra* files into *setup.tra* and *slandor.tra*.
+- Split *%language%.tra* files into *setup.tra* and *slandor.tra*. Added `AUTO_TRA` command.
 - Wrote a new *slandor-readme-english.html* readme file and moved it into new *readme* folder.
 - Reorganized mod architecture tree: created "*lang*" folder to sort files according to their types.
 - Lower cased files.
