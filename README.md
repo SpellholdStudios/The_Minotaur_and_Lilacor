@@ -180,6 +180,8 @@ In addition to the methods above for removing individual components, you can com
 - Added native BG2:EE and EET compatibilities.
 - Added Polish translation by Cahir (<a href="http://athkatla.cob-bg.pl/viewtopic.php?t=6046">BWP FixPack</a>).
 - Added German, Italian, Polish and Spanish WeiDU prompts.
+German
+- Split *%language%.tra* files into *setup.tra* and *slandor.tra*.
 - Wrote a new *slandor-readme-english.html* readme file and moved it into new *readme* folder.
 - Reorganized mod architecture tree: created "*lang*" folder to sort files according to their types.
 - Lower cased files.
