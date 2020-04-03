@@ -1,0 +1,14 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		ActionOverride("icmyc01",Kill("icmyc01"))
+		ActionOverride("icmyc01",Kill("icmyc01"))
+		ActionOverride("icmyc02",Kill("icmyc02"))
+		CreateCreature("ysmyc01",[622.366],13)
+		CreateCreature("ysmyc01",[546.454],10)
+		CreateCreature("ysmyc01",[760.359],11)
+		CreateCreature("ysmyc01",[558.575],7)
+		CreateCreature("ysmyc02",[360.578],9)
+		CreateCreature("ysmyc02",[799.561],10)
+END

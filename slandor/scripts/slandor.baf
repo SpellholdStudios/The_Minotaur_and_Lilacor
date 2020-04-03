@@ -1,0 +1,39 @@
+IF
+    !See([EVILCUTOFF])
+THEN
+    RESPONSE #100
+        DialogInterrupt(TRUE)
+        Turn()
+        Continue()
+END
+
+IF
+    See([EVILCUTOFF])
+THEN
+    RESPONSE #100
+        DialogInterrupt(FALSE)
+        Attack(LastSeenBy(Myself))
+        Continue()
+END
+
+IF
+	Global("ysSlandorHostile","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Enemy()
+		Continue()
+END
+
+IF
+	OR(7)
+		AttackedBy(Player1,DEFAULT)
+		AttackedBy(Player2,DEFAULT)
+		AttackedBy(Player3,DEFAULT)
+		AttackedBy(Player4,DEFAULT)
+		AttackedBy(Player5,DEFAULT)
+		AttackedBy(Player6,DEFAULT)
+		Global("ysSlandorHostile","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END

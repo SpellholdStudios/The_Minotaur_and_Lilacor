@@ -1,0 +1,26 @@
+BACKUP ~slandor/backup~
+AUTHOR ~Yovaneth @ DragonflightDesign@hotmail.com~
+MODDER setup_tra NONE
+
+LANGUAGE 	~Deutsch (bei Gerri)~ ~deutsch~ ~slandor/german/german.tra~
+LANGUAGE 	~English (by Yovaneth)~ ~English~ ~slandor/english/english.tra~
+LANGUAGE 	~Français (par Le Marquis de la d'Oghmatiques)~ ~french~ ~slandor/french/french.tra~
+LANGUAGE 	~Italian (da Ilot)~ ~italian~ ~slandor/italian/italian.tra~
+LANGUAGE 	~Russian (www.aerie.ru [prowler, hawkmoon, accolon])~ ~russian~ ~slandor/russian/russian.tra~
+LANGUAGE 	~Spanish (por Lisandro)~ ~spanish~ ~slandor/spanish/spanish.tra~
+
+
+//Quest title
+BEGIN @24
+
+//Dialog
+	COMPILE ~slandor/dialog/slandor.d~
+
+//Cre
+	COPY ~slandor/cre/.~ ~override/.~
+
+//Scripts
+	COMPILE ~slandor/scripts/slandor.baf~
+	COMPILE ~slandor/scripts/ysmyc01.baf~
+	COMPILE ~slandor/scripts/ysmyc02.baf~
+	COMPILE ~slandor/scripts/ar0418.baf~
