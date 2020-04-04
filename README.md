@@ -161,7 +161,7 @@ In addition to the methods above for removing individual components, you can com
 
 ## <a name="versions" id="versions"></a>Version History
 
-#### Version 2.0 (3rd April 2020)
+#### Version 2.0 (4 April 2020)
 
 - Added *slandor.ini* metadata file to support AL|EN's "Project Infinity".
 - Renamed *setup-slandor.tp2* -> *slandor.tp2* and moved it into mod top folder to support AL|EN's "Project Infinity".
