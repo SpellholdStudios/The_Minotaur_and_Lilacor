@@ -6,7 +6,7 @@
 
 <div align="center"><h1>The Minotaur and Lilacor</h1>
 
-<h3>A Spellhold Studios mod for Baldur's Gate II::SoA, ToB, ToB, Baldur's Gate Trilogy, BG2:EE and EET<h3>
+<h3>A Spellhold Studios mod for Baldur's Gate II:SoA, ToB, ToB, Baldur's Gate Trilogy, BG2:EE and EET<h3>
 
 </div><br />
 
@@ -112,12 +112,6 @@ In addition to the methods above for removing individual components, you can com
 <hr>
 
 
-<div align="right"><a href="#top">Back to top</a></div>
-
-
-<hr>
-
-
 ## <a name="credits" id="credits"></a>Credits and Acknowledgements
 
 **Author:** <a href="http://www.shsforums.net/user/3148-yovaneth/">Yovaneth</a>  
@@ -179,6 +173,7 @@ In addition to the methods above for removing individual components, you can com
 - Added component `DESIGNATED` number and "*the_minotaur_and_lilacor*" `LABEL`.
 - Added missing `HANDLE_CHARSETS` function to convert string entries for EE games.
 - Added native BG2:EE and EET compatibilities.
+- slandor.cre and ar0418.bcs files no longer overwritten, but patched now.
 - Added Polish translation by Cahir (<a href="http://www.shsforums.net/topic/41699-the-minotaur-and-lilacor/page-2#entry591480">BWP FixPack</a>).
 - Added German, Italian, Polish and Spanish WeiDU prompts.
 - Fixed typos in German and French tra files.

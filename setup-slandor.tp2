@@ -40,7 +40,7 @@ LANGUAGE ~English (translation by Yovaneth)~
          ~English~
 		 ~slandor/lang/english/setup.tra~
 
-LANGUAGE ~Français (Traduction : Le Marquis, des d'Oghmatiques)~
+LANGUAGE ~Francais (Traduction : Le Marquis, des d'Oghmatiques)~
          ~french~
 		 ~slandor/lang/french/setup.tra~
 
@@ -51,10 +51,6 @@ LANGUAGE ~Italiano (traduzione di Ilot)~
 LANGUAGE ~Russian (translation by aerie.ru [prowler, hawkmoon, accolon])~
          ~russian~
 		 ~slandor/lang/russian/setup.tra~
-
-LANGUAGE ~Espanol (traduccion por Lisandro)~
-         ~spanish~
-		 ~slandor/lang/spanish/setup.tra~
 
 LANGUAGE ~Espanol (traduccion por Lisandro)~
          ~spanish~
@@ -80,8 +76,34 @@ COMPILE ~slandor/dialog/slandor.d~
 // -----------------
 COPY ~slandor/cre~ ~override~
 
-// Compile dscripts
+COPY_EXISTING ~slandor.cre~ ~override~
+	WRITE_SHORT 0x24  200	// Current Hit Points
+	WRITE_BYTE  0x54  13	// Save versus death
+	WRITE_BYTE  0x55  15	// Save versus wands
+	WRITE_BYTE  0x56  14	// Save versus polymorph
+	WRITE_BYTE  0x57  16	// Save versus breath attacks
+	WRITE_BYTE  0x58  16	// Save versus spells
+	WRITE_ASCII DIALOG ~slandor~ #8
+	WRITE_ASCII SCRIPT_OVERRIDE ~~ #8
+	WRITE_ASCII SCRIPT_DEFAULT ~slandor~ #8
+	WRITE_BYTE  0x275 1		// gender (MALE)
+BUT_ONLY
+
+// Compile scripts
+// ---------------
 COMPILE ~slandor/scripts/slandor.baf~
 COMPILE ~slandor/scripts/ysmyc01.baf~
 COMPILE ~slandor/scripts/ysmyc02.baf~
-COMPILE ~slandor/scripts/ar0418.baf~
+
+// Workaround to be sure ar0418 has been assigned a script.
+// --------------------------------------------------------
+COPY_EXISTING ~ar0418.are~ ~override~
+	WRITE_ASCII AREA_SCRIPT ar0418 #8
+BUT_ONLY
+ACTION_IF (FILE_EXISTS_IN_GAME ~ar0418.bcs~) BEGIN
+	// Append to existing script
+	EXTEND_TOP ~ar0418.bcs~ ~slandor/scripts/ar0418.baf~
+END ELSE BEGIN
+	// Create new script
+	COMPILE ~slandor/scripts/ar0418.baf~
+END

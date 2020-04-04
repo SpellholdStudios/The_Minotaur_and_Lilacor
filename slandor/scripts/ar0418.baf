@@ -11,4 +11,5 @@ THEN
 		CreateCreature("ysmyc01",[558.575],7)
 		CreateCreature("ysmyc02",[360.578],9)
 		CreateCreature("ysmyc02",[799.561],10)
+		Continue()
 END
