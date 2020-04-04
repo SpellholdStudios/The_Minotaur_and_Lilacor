@@ -234,19 +234,3 @@ In addition to the methods above for removing individual components, you can com
 
 - Initial release.
 <div align="right"><a href="#top">Back to top</a></div>
-----------------------------------------------------------------------------------------
-
-
-:: slandor - The Minotaur and Lilacor v1.6
-
-:: Added Polish translation by Cahir
-:: http://athkatla.cob-bg.pl/viewtopic.php?t=6046
-
-:: HANDLE_CHARSETS for EE compatibility
-:: - LINK NOT FOUND -
-
-
-----------------------------------------------------------------------------------------
-
-
-
