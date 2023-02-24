@@ -33,7 +33,7 @@ END
 AUTO_TRA ~slandor/lang/%s~
 
 LANGUAGE ~Deutsch (Uebersetzung von Gerri)~
-         ~deutsch~
+         ~german~
 		 ~slandor/lang/german/setup.tra~
 
 LANGUAGE ~English (translation by Yovaneth)~
