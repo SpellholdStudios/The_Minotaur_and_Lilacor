@@ -15,7 +15,7 @@ ALWAYS
 	 *    Convert strings to UTF-8 for BGEE/BG2EE                                                    *
 	 *    No exception, everything needs to be converted                                             *
 	 * -----------------------------------------------------------------------*--------------------- */
-	ACTION_DEFINE_ARRAY y#noconvert BEGIN END
+	ACTION_DEFINE_ARRAY y#noconvert BEGIN setup END
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 	ACTION_DEFINE_ARRAY y#reload BEGIN setup END
 
@@ -61,6 +61,9 @@ LANGUAGE ~Polski (translation by Cahir)~
          ~polish~
          ~slandor/lang/polish/setup.tra~
 
+LANGUAGE  ~Simplified Chinese (translation: Lewis Liu)~
+          ~schinese~
+         ~slandor/lang/schinese/setup.tra~
 
 /* ========================== *
  *  The Minotaur and Lilacor  *
